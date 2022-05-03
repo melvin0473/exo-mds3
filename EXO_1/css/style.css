@@ -1,0 +1,163 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: rgb(17, 17, 46);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+#header svg {
+    color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#intro p {
+    margin-bottom: 50px;
+}
+
+.button {
+    background-color: rgb(17, 17, 46);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-container img {
+    margin-inline: auto;
+    margin-bottom: 50px;
+}
+
+#quote {
+    height: 506px;
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/bg-citation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#quote p {
+    margin-top: 25px;
+}
+
+#quote p:last-child {
+    text-align: right;
+}
+
+#history {
+    display: flex;
+    text-align: left;
+}
+
+#history div {
+    width: 100%;
+}
+
+#form input,
+#form textarea {
+    width: 100%;
+    border: none;
+    background-color: #cccccc;
+    color: black;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+.form-double {
+    display: flex;
+}
+
+.form-double input:last-child {
+    margin-left: 10px;
+}
+
+header {
+    position: fixed;
+    background: black;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-inline: auto;
+}
+
+#menu ul {
+    display: flex;
+}
+
+#menu li {
+    list-style: none;
+    transition: 0.3s;
+}
+
+#menu a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 70px;
+    transition: 0.3s;
+}
+
+#menu li:hover,
+#menu a:hover {
+    transform: scale(1.1);
+    color: rgb(77, 109, 253);
+}
+
+.button:hover {
+    background-color: rgb(77, 109, 253);
+}
+
+#logo p {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
